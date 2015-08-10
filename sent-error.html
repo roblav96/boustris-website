@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boustris &amp; Sons Inc.</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/sent.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="jumbotron">
+            <h1 class="text-danger bg-danger">Your message has NOT been sent!</h1>
+            <p class="lead text-warning">Please contact our office at 617-789-4488
+                <br>Thank you!</p>
+        </div>
+    </div>
+
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <script type="text/javascript">
+    $(document).ready(function() {
+        setTimeout(function() {
+            window.location.replace("http://boustrisandsons.com")
+        }, 3000)
+    });
+    </script>
+</body>
+
+</html>
